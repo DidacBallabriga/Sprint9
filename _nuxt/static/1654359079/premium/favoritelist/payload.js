@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/premium/favoritelist", {data:[{}],fetch:{},mutations:[]});
