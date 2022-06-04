@@ -51,6 +51,6 @@ export default {
   },
   target: 'static',
   router: {
-    base: '/https://github.com/DidacBallabriga/Sprint9/'
+    base: '/Sprint9/'
   }
 }
