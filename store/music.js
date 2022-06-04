@@ -8,7 +8,7 @@ export const state = () => ({
 export const actions = {
     async loadMusic({commit, getters}){
         let text = getters.getText
-        let { data } = await this.$axios.get("https://api.deezer.com/search?q="+text)
+        let { data } = await this.$axios.get("https://api.codetabs.com/v1/proxy?quest=https://api.deezer.com/search?q="+text)
         commit('setMusic', data)
     },
 }
