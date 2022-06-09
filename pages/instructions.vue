@@ -35,7 +35,6 @@ h3{
     height: 100%;
     -webkit-animation: displace 45s linear infinite;
     animation: displace 45s linear infinite;
-    background-size: 75vw 3vw;
     height: 55px;
 }
 .intructions{ 
